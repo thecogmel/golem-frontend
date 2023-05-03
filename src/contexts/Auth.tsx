@@ -103,7 +103,6 @@ export const AuthProvider: React.FC<IAuthProviderProps> = ({ children }) => {
       }}
     >
       {isLoadingInitialValues ? <SplashScreen /> : children}
-      {children}
     </AuthContext.Provider>
   );
 };

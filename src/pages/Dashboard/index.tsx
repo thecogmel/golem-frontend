@@ -1,9 +1,9 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Text } from '@chakra-ui/react';
 
 const Dashboard: React.FC = () => {
-  return <div />;
+  return <Text>a</Text>;
 };
 
 export default Dashboard;

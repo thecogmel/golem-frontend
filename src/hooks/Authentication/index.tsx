@@ -1,6 +1,6 @@
-import { endpoints, useApi } from 'contexts/Api';
 import { useCallback } from 'react';
 
+import { endpoints, useApi } from 'contexts/Api';
 
 interface IRequestChangePasswordResponse {
   message: string;
@@ -64,8 +64,6 @@ const useAuthentication = () => {
     },
     [request]
   );
-
-
 
   return {
     getProfile,

@@ -16,6 +16,7 @@ import {
   Input,
   InputGroup,
   InputRightElement,
+  Show,
   Stack,
   useToast,
 } from '@chakra-ui/react';
@@ -55,9 +56,11 @@ const Login: React.FC = () => {
       alignItems={'center'}
       flexDirection={'row'}
     >
-      <Stack flex={1} bg={`red`}>
-        <Image h={'100vh'} src="/images/login.jpg" objectFit="cover" />
-      </Stack>
+      <Show above="md">
+        <Stack flex={1}>
+          <Image h={'100vh'} src="/images/login.jpg" objectFit="cover" />
+        </Stack>
+      </Show>
       <Stack flex={2}>
         <Container>
           <Center>

@@ -13,7 +13,7 @@ const theme = extendTheme(
   {
     config,
   },
-  withDefaultColorScheme({ colorScheme: 'orange' })
+  withDefaultColorScheme({ colorScheme: 'teal' })
 );
 
 export default theme;

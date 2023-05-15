@@ -89,9 +89,9 @@ const ListCategories: React.FC = () => {
           </Tbody>
           <Tfoot>
             <Tr>
-              <Th>To convert</Th>
-              <Th>into</Th>
-              <Th isNumeric>multiply by</Th>
+              <Th>Nome</Th>
+              <Th>Status</Th>
+              <Th isNumeric>Ativo desde</Th>
             </Tr>
           </Tfoot>
         </Table>

@@ -13,6 +13,15 @@ const RoutesPath = {
     home: {
       path: '/dashboard/',
     },
+    categories: {
+      path: '/categorias/',
+    },
+    createCategory: {
+      path: '/categorias/criar/',
+    },
+    detailCategory: {
+      path: '/categorias/:id/',
+    },
   },
 };
 

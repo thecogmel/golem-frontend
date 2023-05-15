@@ -30,14 +30,14 @@ const SideBarItem: React.FC<ISideBarItem> = ({
     <Container selected={itemIsSelected} index={index} to={route}>
       {itemIsSelected ? (
         <>
-          <Icon as={IconProps} size={14} mr={4} color={'MenuText'} />
+          <Icon as={IconProps} size={18} mr={4} color={'MenuText'} />
           <Text fontSize={'lg'} as="b" color={'MenuText'}>
             {name}
           </Text>
         </>
       ) : (
         <>
-          <Icon as={IconProps} size={14} mr={4} color={'InactiveCaptionText'} />
+          <Icon as={IconProps} size={18} mr={4} color={'InactiveCaptionText'} />
           <Text fontSize={'lg'} as="p" color={'InactiveCaptionText'}>
             {name}
           </Text>

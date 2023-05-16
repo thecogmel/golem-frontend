@@ -1,4 +1,9 @@
-import { MdDashboard, MdOutlineCategory, MdSettings } from 'react-icons/md';
+import {
+  MdDashboard,
+  MdOutlineAllInbox,
+  MdOutlineCategory,
+  MdSettings,
+} from 'react-icons/md';
 import RoutesPath from 'router/routes';
 
 const sideBarOptions = () => {
@@ -12,6 +17,11 @@ const sideBarOptions = () => {
       name: 'Categorias',
       icon: MdOutlineCategory,
       route: RoutesPath.private.categories.path,
+    },
+    {
+      name: 'Materiais',
+      icon: MdOutlineAllInbox,
+      route: RoutesPath.private.materials.path,
     },
     {
       name: 'Configurações',

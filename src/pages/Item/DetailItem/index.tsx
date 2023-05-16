@@ -113,7 +113,7 @@ const DetailItem: React.FC = () => {
             </HStack>
             <HStack>
               <Text as="b">Categoria:</Text>
-              <Text>Catergoria 1</Text>
+              <Text>Categoria 1</Text>
             </HStack>
           </CardBody>
         </Card>

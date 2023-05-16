@@ -2,6 +2,9 @@ import CreateCategories from 'pages/Category/CreateCategories';
 import DetailCategory from 'pages/Category/DetailCategory';
 import ListCategories from 'pages/Category/ListCategories';
 import Dashboard from 'pages/Dashboard';
+import CreateItem from 'pages/Item/CreateItem';
+import DetailItem from 'pages/Item/DetailItem';
+import ListItems from 'pages/Item/ListItems';
 
 import RoutesPath from './routes';
 
@@ -32,6 +35,18 @@ const privatePages: Array<privatePagesProps> = [
   {
     route: RoutesPath.private.createCategory,
     component: CreateCategories,
+  },
+  {
+    route: RoutesPath.private.materials,
+    component: ListItems,
+  },
+  {
+    route: RoutesPath.private.createMaterial,
+    component: CreateItem,
+  },
+  {
+    route: RoutesPath.private.detailMaterial,
+    component: DetailItem,
   },
 ];
 

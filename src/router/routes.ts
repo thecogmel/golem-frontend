@@ -22,6 +22,15 @@ const RoutesPath = {
     detailCategory: {
       path: '/categorias/:id/',
     },
+    materials: {
+      path: '/materiais/',
+    },
+    createMaterial: {
+      path: '/materiais/criar/',
+    },
+    detailMaterial: {
+      path: '/materiais/:id/',
+    },
   },
 };
 

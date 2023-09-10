@@ -1,5 +1,6 @@
 import {
   MdDashboard,
+  MdOutlineAccountCircle,
   MdOutlineAllInbox,
   MdOutlineCategory,
   MdSettings,
@@ -22,6 +23,11 @@ const sideBarOptions = () => {
       name: 'Materiais',
       icon: MdOutlineAllInbox,
       route: RoutesPath.private.materials.path,
+    },
+    {
+      name: 'Usuários',
+      icon: MdOutlineAccountCircle,
+      route: RoutesPath.private.users.path,
     },
     {
       name: 'Configurações',

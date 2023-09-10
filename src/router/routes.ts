@@ -31,6 +31,9 @@ const RoutesPath = {
     detailMaterial: {
       path: '/materiais/:id/',
     },
+    users: {
+      path: '/usuarios/',
+    },
   },
 };
 

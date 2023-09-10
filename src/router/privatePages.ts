@@ -5,6 +5,7 @@ import Dashboard from 'pages/Dashboard';
 import CreateItem from 'pages/Item/CreateItem';
 import DetailItem from 'pages/Item/DetailItem';
 import ListItems from 'pages/Item/ListItems';
+import ListUsers from 'pages/Users/ListUsers';
 
 import RoutesPath from './routes';
 
@@ -47,6 +48,10 @@ const privatePages: Array<privatePagesProps> = [
   {
     route: RoutesPath.private.detailMaterial,
     component: DetailItem,
+  },
+  {
+    route: RoutesPath.private.users,
+    component: ListUsers,
   },
 ];
 
